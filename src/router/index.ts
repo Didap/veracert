@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/certificazioni/iso-45001',
       name: 'iso-45001',
       component: () => import('@/pages/ISO45001Page.vue')
+    },
+    {
+      path: '/partner',
+      name: 'partner',
+      component: () => import('@/pages/PartnerPage.vue')
     }
   ],
   scrollBehavior(to, _from, savedPosition) {

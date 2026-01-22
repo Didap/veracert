@@ -3,16 +3,17 @@ import { Linkedin, Mail, Phone, MapPin } from 'lucide-vue-next'
 
 const links = {
   servizi: [
-    { label: 'Audit di Certificazione', href: '#servizi' },
-    { label: 'Audit Interni', href: '#servizi' },
-    { label: 'Audit Fornitori', href: '#servizi' },
-    { label: 'Formazione', href: '#servizi' },
+    { label: 'Audit di Certificazione', href: '/#servizi' },
+    { label: 'Audit Interni', href: '/#servizi' },
+    { label: 'Audit Fornitori', href: '/#servizi' },
+    { label: 'Formazione', href: '/#servizi' },
   ],
   azienda: [
-    { label: 'Chi Siamo', href: '#chi-siamo' },
-    { label: 'Perche Noi', href: '#perche-noi' },
-    { label: 'Valori', href: '#valori' },
-    { label: 'Mission', href: '#mission' },
+    { label: 'Chi Siamo', href: '/#chi-siamo' },
+    { label: 'Perche Noi', href: '/#perche-noi' },
+    { label: 'Valori', href: '/#valori' },
+    { label: 'Mission', href: '/#mission' },
+    { label: 'Partner', href: '/partner' },
   ],
 }
 </script>
